@@ -105,36 +105,55 @@
             </div>
         </div>
         <!--INIZIO ELEMENTI IN VENDITA-->
-        <div class="container">
+        <div class="container p-3">
+          <!--TESTO + BOTTONI-->
+          <h2 class="d-inline-block">10 Prodotti trovati</h2>
+          <div class="btn-group btn-group-sm" role="group" aria-label="Basic outlined example">
+            <button type="button" class="btn btn-outline-secondary">Esporta</button>
+            <button type="button" class="btn btn-outline-secondary">Nuovo</button>
+          </div> 
+          <!--TABELLA-->
+
           <table class="table">
             <thead>
               <tr>
-                <th scope="col">Nome</th>
+                <th scope="col" colspan="2">Nome</th>
                 <th scope="col">Prezzo</th>
                 <th scope="col">Stato</th>
                 <th scope="col">Azioni</th>
               </tr>
             </thead>
-            <tbody class="table-group-divider">
+            <tbody>
               <tr>
-                <td scope="row">1</td>
+                <td colspan="2">
+                  <img src="./img/images.jfif" alt="prodotto">
+                </td>
                 <td>Mark</td>
-                <td>Otto</td>
+                <td>
+                  <button class="btn btn-success rounded-circle p-2 lh-1" type="button">
+                    <i class="bi bi-check"></i>
+                    <span class="visually-hidden">Dismiss</span>
+                  </button>
+                </td>
                 <td>@mdo</td>
               </tr>
               <tr>
-                <th scope="row">2</th>
+                <td colspan="2">2</td>
                 <td>Jacob</td>
                 <td>Thornton</td>
                 <td>@fat</td>
               </tr>
               <tr>
-                <th scope="row">3</th>
-                <td colspan="2">Larry the Bird</td>
+                <td colspan="2">3</td>
+                <td>Larry the Bird</td>
+                <td>@twitter</td>
                 <td>@twitter</td>
               </tr>
             </tbody>
           </table>
+          
+          
+
         </div>
 
     </main>
