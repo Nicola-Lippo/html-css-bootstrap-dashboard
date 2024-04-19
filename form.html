@@ -113,9 +113,71 @@
             <p class="fs-5 text-body-secondary">I campi contraseganti con un asterisco (*) sono obbligatori.<br>Le immaggini devono essere in PNG e non devono superare i 4 MB di dimensione.</p>
           </div>
 
-          <div class="row row-cols-1 row-cols-lg-2">
-            <div class="col">col</div>
+          <div class="row row-cols-1 row-cols-lg-2">            
+            <div class="col mb-3">
+              <!--FORM COPIATO COME ELEMENTO-->
+              <form>
+                <!--CAMPI DI SCRITTURA-->
+                <div class="row mb-3">
+                  <label for="" class="col-sm-2 col-form-label">Nome</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="">
+                  </div>
+                </div>
+
+                <div class="row mb-3">
+                  <label for="" class="col-sm-2 col-form-label">Prezzo</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="">
+                  </div>
+                </div>
+                <!--OPZIONI DI SCELTA-->
+                <div class="row">
+                  <label for="" class="col-sm-2 col-form-label">Marca</label>
+                  <div class="col-sm-10">
+                    <div class="col-auto">
+                      <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+                      <select class="form-select" id="autoSizingSelect">
+                        <option selected>-- scegli --</option>
+                        <option value="1">Samsung</option>
+                        <option value="2">Apple</option>
+                        <option value="3">Microsoft</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <!--CAMPO DI SCRITTURA GRANDE-->
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label"></label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+              </form>
+              <!--INPUT CARICAMENTO FILE COPIATO COME ELEMENTO-->
+              <div class="input-group mb-3">
+                <input type="file" class="form-control" id="inputGroupFile02">
+                <label class="input-group-text" for="inputGroupFile02">Immaggini</label>
+              </div>
+              <!--BOTTONI COPIATO COME ELEMENTO-->
+              <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+                <label class="btn btn-outline-secondary" for="btncheck1">Disponibiile</label>
+              
+                <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+                <label class="btn btn-outline-secondary" for="btncheck2">Esaurito</label>
+              
+                <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+                <label class="btn btn-outline-secondary" for="btncheck3">Fuori produzione</label>
+
+                <input type="checkbox" class="btn-check" id="btncheck4" autocomplete="off">
+                <label class="btn btn-outline-secondary" for="btncheck4">Fuori produzione</label>
+              </div>
+              <!--BOTTONE FINALE COPIATO COME ELEMENTO-->
+              <button type="button" class="btn btn-primary mt-2 d-none d-lg-block ">Salva</button>
+            </div>
+            
+            
             <div class="col">
+              <!--CHECK-BOX COPIATO COME ELEMENTO-->
               <div class="list-group">
                 <label class="list-group-item d-flex gap-2">
                   <input class="form-check-input flex-shrink-0" type="checkbox" value="" checked="">
@@ -160,6 +222,8 @@
                   </span>
                 </label>
               </div>
+              <!--BOTTONE FINALE COPIATO COME ELEMENTO-->
+              <button type="button" class="btn btn-primary mt-2 d-block d-lg-none">Salva</button>
             </div>
 
           </div>
